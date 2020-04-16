@@ -10,7 +10,7 @@ class CreateDb{
 	public $con;
 
 	// constructor
-	public function __construct($servername="localhost", $username="root", $password="",$database="heri",$tablename="product"){
+	public function __construct($servername="localhost", $username="root", $password="", $database="heri", $tablename="product"){
 		
 		$this->servername = $servername;
 		$this->username = $username;
